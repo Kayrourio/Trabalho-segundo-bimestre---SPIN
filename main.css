@@ -141,25 +141,32 @@ a:hover {
     content: "";
     display: block;
     position: relative;
+    background-repeat: no-repeat;
     width: 39%;
-    height: 60%;
+    height: 50%;
     background-image: url(imagem\ \(7).jpg);
     left: 40px;
     top: -10.5%;    
     animation-name: trocaimg;
-    animation-duration: 15s;
+    animation-duration: 30s;
     animation-iteration-count: infinite;
     transition-duration: 0.25s;
 }
 
 @keyframes trocaimg {
     0%   {background-image: url(imagem\ \(1\).jpg);}
-    14.2%  {background-image: url(imagem\ \(2\).jpg);}
-    28.4%  {background-image: url(imagem\ \(3\).jpg);}
-    42.6% {background-image: url(imagem\ \(4\).jpg);}
-    56.8% {background-image: url(imagem\ \(5\).jpg);}
-    72% {background-image: url(imagem\ \(6\).jpg);}
-    85.2% {background-image: url(imagem\ \(7\).jpg);}
+    6.25%  {background-image: url(imagem\ \(2\).jpg);}
+    12.5%  {background-image: url(imagem\ \(3\).jpg);}
+    18.75% {background-image: url(imagem\ \(4\).jpg);}
+    25% {background-image: url(imagem\ \(5\).jpg);}
+    31.25% {background-image: url(imagem\ \(6\).jpg);}
+    37.6% {background-image: url(imagem\ \(7\).jpg);}
+    43.75% {background-image: url(scrs1.png);}
+    50% {background-image: url(scrs2.png);}
+    56.25% {background-image: url(scrs3.png);}
+    62.5% {background-image: url(scrs9.png);}
+    68.75% {background-image: url(scrs5.png);}
+    81.25% {background-image: url(scrs8.png);}
     100% {background-image: url(imagem\ \(1\).jpg);}
 
 }
