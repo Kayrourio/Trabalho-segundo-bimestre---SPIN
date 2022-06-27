@@ -264,7 +264,7 @@ footer{
 }
 @media screen and (max-width:480px){
     #parte-superior, #part-one, #part-two, #part-three, #part-four, #part-five {width: 100%;} 
-    #part-three, #part-four, #part-five{ height: 740px;}
+    #part-three, #part-four, #part-five{ height: auto;}
     .txt3title, .txt4title, .txt5title {font-size: 30px; display: block; text-align: center; margin: 0; top: 40px; }
     .texto3, .texto4, .texto5 {font-size: 15px; margin: 0 10% 0 10%; width: auto; text-align: justify; left: 0;top: 100px;}
     .texto2 {font-size: 18px; padding-left: 20%; text-align: justify; }
