@@ -16,7 +16,7 @@ p, h3{
 ul, li{
     list-style: none;
 }
-
+ul{ display: inline-block;}
 #parte-superior {
     width: 100%;
     height: 100px;
@@ -24,6 +24,7 @@ ul, li{
     font-weight: absolute;
     background-color: #1b3277;
     text-align: left;
+    padding-bottom: 10px;
 
 }
 a, .sup{
@@ -50,6 +51,7 @@ a:hover {
 #part-one, #part-two, #part-three, #part-four, #part-five {height: 650px;}
 
 #part-one {
+    background-color: #223F95;
     background-image: url("imagem\ da\ turma.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -229,36 +231,36 @@ a:hover {
 } 
 footer{
     height: auto;
-    background-color: #554e48;
+    background-color: #33363d;
 }
 .contato {
     font-size: 25px;
     position: relative;
-    margin-left: 10px;
+    margin-left: 19%;
     top: 50px;
-    color: #aaaaaa;
+    color: #c5c6d0 ;
 }
 .contatos {    
     position: relative;
-    font-size: 20px;
-    top: 70px;
-    color: #bbbbbb;
+    top: -50px;
+    margin-left: 5%;
+    color: #787276;
 }
-.contatos, li { padding-top: 20px; font-size:26px;}
+.contatos, li { padding-top: 10px; font-size:23px;}
 .logo{
     position: relative;
     width: 10%;
     height: 70px;
     background-image: url("image.png");
     background-repeat: no-repeat;
-    margin-left: 1300px;
-    top: -150px; 
+    margin-left: 6%;
+    top: 40px; 
 }
 .logo2 {
     position: relative;
     background-image: url("logoong.png");
-    margin-left: 84.5%;
-    top: -100px;
+    margin-left: 4.8%;
+    top: 20px;
     width: 10%;
     height: auto;
 }
@@ -283,5 +285,6 @@ footer{
         margin: 0;
         padding: 0;
     }
- 
+    #part-four{height: 550px;}
+    .restinga{height: 200px;}
 }
